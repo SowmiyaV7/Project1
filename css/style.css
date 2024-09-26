@@ -1,0 +1,603 @@
+body{
+    font-family: "Merriweather", serif;
+}
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.whatsapp{
+    position: fixed;
+    bottom: 60px;
+    right: 75px;
+}
+.whatsapp a i{
+    font-size: 36px;
+    color: green;
+} 
+ul{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+li{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+/*********header start*********/
+.header{
+    padding: 10px 0px 10px 0px;
+}
+.header .left img{
+    width: 100%;
+}
+.header .right ul{
+    margin: 20px 0px 0px 0px;   
+}
+.header .right ul li{
+    display: inline-block;
+    margin: 0px 25px 0px 25px;   
+    font-family: "Merriweather", serif;
+    color: #787878;
+}
+.header .right ul li:hover{
+    color: blue;
+}
+
+/*********header end*********/
+/*********Banner start*******/
+.banner{
+    padding:20px 0px 20px 0px;
+}
+.banner .banner_left h1{
+    font-family: "Merriweather", serif;
+    font-size: 60px;
+    color: #314259;
+    font-weight: bold;
+}
+.banner .banner_left p{
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: #787878;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin:20px 0px 0px 0px;
+}
+.banner .banner_left button{
+    background-color: #ed1a3b;
+    color: white;
+    border-radius: 15px;
+    font-size: larger;
+    border: none;
+    padding: 15px 35px 15px 35px;
+    transition: background-color 0.7s;
+    margin: 30px 0px 0px 0px;
+
+}
+.banner .banner_left button:hover{
+    background-color: #dd3333;
+}
+.banner .banner_right{
+    text-align: center;
+}
+.banner .banner_right img{
+    width: 80%;
+}
+
+/*********Banner end*******/
+
+
+
+/*********icons start*******/
+
+.icons 
+{
+    background-color: #fafafa;
+    height: 250px;
+    margin: 35px 0px 0px 0px;
+}
+.icons ul li
+{
+    display: inline-block;
+    padding: 55px 0px 0px 50px;
+}
+.icons ul li h1
+{
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    padding: 20px 0px 0px 0px ;
+    color: #314259;
+}
+.icons ul li p
+{
+    font-family: "Merriweather", serif;
+    padding: 20px 0px 0px 0px;
+    color: #314259;
+}
+.icons ul li h1 span
+{
+    color: #ed1a3b;
+}
+
+
+/*********icons end*******/
+
+/*********sec1 start*******/
+.sec1 
+{
+    margin: 130px 0px 0px 0px;
+}
+.sec1 .leftsec1 img
+{
+    width: 70%;
+}
+.sec1 .rightsec1 h1
+{
+    font-weight: bold ;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+}
+.sec1 .rightsec1 p{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+}
+.sec1 .rightsec1 button{
+    border: none;
+    color: red;
+}
+/*********sec1 end*******/
+
+/*********sec2 Strat*******/
+.sec2
+{
+    margin: 130px 0px 0px 0px;
+}
+.sec2 .leftsec2 h1
+{
+    font-weight: bold ;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+}
+.sec2 .leftsec2 p{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+}
+.sec2 .leftsec2 button{
+    border: none;
+    color: red;
+}
+.sec2 .rightsec2 img{
+    width: 70%;
+}
+.sec2 .leftsec2 p span{
+    color: #3279b7;
+}
+.sec2 .leftsec2 p a{
+    text-decoration: none;
+}
+.sec2 .leftsec2 p a:hover{
+    text-decoration: underline;
+
+}
+/*********sec2 end*******/
+/*********sec3 start*******/
+.sec3
+{
+    margin: 130px 0px 0px 0px;
+}
+.sec3 .leftsec3 img
+{
+    width: 70%;
+}
+.sec3 .rightsec3 h1
+{
+    font-weight: bold ;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+}
+.sec3 .rightsec3 p{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+}
+.sec3 .rightsec3 button{
+    border: none;
+    color: red;
+}
+/*********sec3 end*******/
+/*********sec4 start*******/
+.sec4
+{
+    margin: 130px 0px 0px 0px;
+}
+.sec4 .leftsec4 h1
+{
+    font-weight: bold ;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+}
+.sec4 .leftsec4 p{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+}
+.sec4 .leftsec4 button{
+    border: none;
+    color: red;
+}
+.sec4 .rightsec4 img{
+    width: 70%;
+}
+/*********sec4 end*******/
+/*********sec5 start*******/
+.sec5
+{
+    margin: 50px 0px 0px 0px;
+    background-color: #fafafa;
+    height: 500px;
+}
+
+.sec5
+{
+    background-color: #fafafa;
+}
+.sec5 h1
+{
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+}
+.sec5 .leftsec5 button{
+    height: 130px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(49, 66, 89);
+    background-color: white;
+    box-shadow: 0px 0px 2px;
+    border: none;
+    width: 100%;
+    text-align: left;
+}
+.sec5 .leftsec5 button:hover{
+    background-color: #f0f0f0;
+    transition-duration: 0.8s;
+}
+.sec5 .leftsec5 button img
+{
+    width: 80px;
+    padding: 0px 0px 0px 30px;
+}
+.sec5 .leftsec5 button span{
+    padding: 10px 30px 10px 30px;
+}
+.sec5 .leftsec5 ul li{
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+    margin: 20px 20px 0px 20px;
+}
+.sec5 .bottom{
+    padding: 70px 0px 0px 0px;
+}
+.leftsec5{
+    height: 500px;
+    overflow: auto;
+    margin: 30px 0px 0px 0px;
+}
+.rightsec5{
+    margin: 30px 0px 0px 0px;
+}
+.sec5 .rightsec5{
+    float: right;
+}
+.rightsec5 h3{
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+   
+}
+.rightsec5 p{
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+    text-align: justify;
+    line-height: 29px;
+}
+.rightsec5 p span{
+    color: #3279b7;
+}
+/*********sec5 end*******/
+/*********sec6 estart*******/
+
+
+.sec5 h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+    text-align: center;
+}
+.sec6{
+    padding: 270px 0px 0px 0px;
+
+}
+.sec6 h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+    text-align: center;
+}
+.sec6 .first{
+    margin: 40px 0px 0px 0px;
+}
+.sec6 .first ul li{
+    list-style: none;
+    padding: 40px 0px 0px 0px;
+}
+.first .box h4{
+    color: black;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+.first .box p{
+    color: #314259;
+}
+.sec6 .first .box img{
+
+   float:right;
+}
+.sec6 .third .box img{
+    margin: 0px 10px 0px 0px;
+    float:left;
+ }
+ .sec6 .third .box p{
+    text-align: justify;
+    width: 80%;
+    margin: 0px 0px 0px 53px;
+ }
+.sec6 .first .box p{
+    text-align: justify;
+    width: 80%;
+}
+.first .box a{
+    color: #dd3333;
+}
+.second{
+    margin: 350px 0px 0px 0px;
+}
+.second img{
+    width: 80%;
+}
+.sec6 .third{
+    margin: 40px 0px 0px 0px;
+}
+.sec6 .third ul li{
+    list-style: none;
+    padding: 40px 0px 0px 0px;
+}
+.third .box h4{
+    color: black;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+.third .box p{
+    color: #314259;
+}
+
+.third .box a{
+    color: #dd3333;
+}
+
+
+/*********sec6 end*******/
+/*********sec7 start*******/
+.sec7{
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
+    background-color: #eeeeee;
+}
+.sec7 h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.accordion{
+    background-color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    color: #314259;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
+    border: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accordion i{
+    font-size: 25px;
+    color: red;
+}
+.active .accordion:hover{
+    background-color: #314259;
+}
+.pannel{
+    padding: 0px 10px 10px 10px;
+    background-color: #eac0ca;
+    overflow: hidden;
+}
+.pannel p{
+    font-size: 17px
+}
+.panel-default .panel-heading{
+    background-color: #ffffff !important;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px -3px 0px;
+}
+
+.panel-group {
+    padding: 20px 0px 20px 0px;
+}
+.panel-default .panel-heading i{
+    float: right;
+    color: #314259;
+}
+.panel-default .panel-heading a{
+   color: #314259;
+   font-weight: bold;
+}
+.collapse.in{
+    background-color: #ffe6eb;
+}
+
+
+/*********sec7 end*******/
+/*********slider start*******/
+.slider{
+    background-color: #eeeeee;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 0px 30px 0px;
+}
+.slider h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Merriweather", serif;
+    color: #314259;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.slider p{
+    font-size: 15px;
+    font-family: "Merriweather", serif;
+    color: rgb(49, 66, 89);
+    text-align: justify;
+    line-height: 29px;
+    width: 80%;
+    margin: 10px auto 0px;
+}
+/*********slider end*******/
+/*********sce8 start*******/
+.sec8{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+.sec8 h3{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.sec8 p{
+    padding: 15px 0px 0px 0px;
+    color: black;
+    font-size: 20px;
+} 
+.sec8 i{
+    padding: 10px 7px 0px 0px;
+    font-size: 30px;
+    color: rgb(245, 166, 35);
+}
+.sec8 span i{
+    color: #ddd;
+}
+.sec8 span i:hover{
+    color: rgb(245, 166, 35);
+    transition-delay: 0.1s;
+}
+/*********sec8 end*******/
+/*********footer start*******/
+.footer{
+    background-color: #263238;
+    padding: 50px 0px 0px 0px;
+}
+.footer .left{
+    color: white;
+}
+.footer .left img{
+    width: 60%;
+}
+.footer .left p{
+    font-size: 20px;
+    padding: 30px 0px 0px 0px ;
+}
+.footer .center h3{
+    color: white;
+    font-weight:bold ;
+}
+.footer .center a{
+    color: white;
+    font-size: 20px;
+    padding: 30px 0px px 0px ;
+}
+.footer .right h3{
+    color: white;
+    font-weight:bold ;
+}
+.footer .right ul{
+    margin:0;
+    padding: 0;
+}
+.footer .right ul li{
+    margin:10px 0px 10px 0px;
+}
+.footer .right ul li a{
+    color: #ffffff;
+    font-size: 18px;
+}
+.sec2 .left h3{
+    padding: 0px 0px 20px 0px;
+    font-weight: bold;
+}
+.sec2 .left ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.sec2 .left ul li a{
+    color: white;
+}
+.sec2 .center h3{
+    padding: 0px 0px 40px 0px;
+    font-weight: bold;
+}
+.sec2 .right{
+    color: white;
+}
+.sec2 .right a{
+    color: white;
+}
+.sec2 .right h3{
+    padding: 0px 0px 40px 0px;
+    font-weight: bold;
+}
+.sec2 .right h4{
+    padding: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+.sec2 .right ul li{
+    list-style-type: none;
+    font-size: 10px;
+}
+/*********footer end*******/
+
+
+
+
+
+
